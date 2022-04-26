@@ -1,0 +1,14 @@
+mov R,c
+mult R,d
+mov t1,R
+
+mov R,a
+add R,b
+mov t2,R
+
+mov R,t1
+sub R,t2
+mov t3,R
+
+mov R,t3
+mov x,R
